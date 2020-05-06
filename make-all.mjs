@@ -112,7 +112,7 @@ ${data.map(o => `## ${o.data.title}
 ### ${moment((new Date(o.data.date))).tz("America/Detroit").format("MMMM Do YYYY, h:mm:ss a z")}
 <meta itemprop="dateCreated" datetime="${(new Date(o.data.date)).toISOString()}">
 ${o.content}
-
+<br><br>
 `).join('\n')}
 
 `;

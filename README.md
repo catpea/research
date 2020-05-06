@@ -52,7 +52,7 @@ I've been meaning to create a new program on Catpea, [The Bootstrap Card](https:
 
 One thing that comes to mind is creating an editor where I can easily store composable snippets and connect them to [specific versions of Bootstrap](https://getbootstrap.com/docs/versions/), for example.
 
-
+<br><br>
 
 ## Svelte is not a component system, look to pre-processors (PostHTML) for such.
 ### April 26th 2020, 2:00:57 pm EDT
@@ -70,7 +70,7 @@ Bodybuilding Advice Widget is also a test of close I can come to satisfy Bootstr
 
 My Final Verdict on the subject of Svelte is that is is not a Component friendly Framework. There is however potential in pre-processor stacks like PostHTML, and plain old XML/XSLT, but since I was only reviewing [Svelte](https://svelte.dev/), the rest is outside of the scope of this Quarantine.
 
-
+<br><br>
 
 ## Code Density Failures
 ### April 25th 2020, 11:26:01 am EDT
@@ -120,7 +120,7 @@ This is yet again a vote for a Visual Programming Language, where things are not
 
 For now though, I'll keep things simple, and simplify the apps I have thus far wrote, rather than create Components out of them.
 
-
+<br><br>
 
 ## Watching the paint dry, Reactive/Dynamic Timestamps
 ### April 24th 2020, 12:46:36 pm EDT
@@ -189,7 +189,7 @@ Then there is the question of HTML vs Flex/Swing, or question of Containers and 
 
 Back to Applications, and goodness I need to make a Raspberry Lettuce Salad for lunch.
 
-
+<br><br>
 
 ## Proper Timestamps
 ### April 23rd 2020, 7:37:00 pm EDT
@@ -229,7 +229,7 @@ And here is what hapends when that catculation can't be made the browser has dis
 
 ![Nojs 2](image/research-0089-nojs-2.png)
 
-
+<br><br>
 
 ## Cat Pea News can be used with JavaScript disabled, and launch of Styleguide.
 ### April 23rd 2020, 1:41:21 pm EDT
@@ -257,7 +257,7 @@ Yesterday, I added that little [templating system](https://github.com/fantasyui-
 
 I also begun work on documenting changes I make to Bootstrap. This is a project that is happening on catpea.com, rather than the news site, and it is under [https://catpea.com/styleguide/](https://catpea.com/styleguide/) It is a horrible mess right now, with sample code. This will become the primary documentation for the Cat Pea Theme. The big deal behind it is that I keep graphic instructions next to structure of content the graphic instructions decorate. It will quickly become a long document with useful little recipes for UI building.
 
-
+<br><br>
 
 ## Color Themes in Bootstrap, and Post Templates in Bash.
 ### April 22nd 2020, 7:59:52 pm EDT
@@ -279,7 +279,7 @@ And I updated the [Palette Tool](https://catpea.com/palette) on [Cat Pea](https:
 
 I still have to adjust a tool that makes use of that data over in [news.catpea.com](https://news.catpea.com/), but it is all looking pretty good. Here is a [mirror of this post](https://github.com/fantasyui-com/news/blob/master/posts/id127.md) on github.
 
-
+<br><br>
 
 ## UI Component Upgrades
 ### April 21st 2020, 3:40:33 pm EDT
@@ -317,7 +317,7 @@ The one big change is that there is no more Player, the user has to click the bu
 
 I also setup an external repository for my writing over on [Github](https://github.com/fantasyui-com/news) it is not easy to navigate, but if I ever lose catpea.com domain name, or github is down, or technology changes, there is always this external master that has all the text and poems and my [recordings](https://github.com/fantasyui-com/news/tree/master/poems) mostly accessible. I want the 70 year old me, to be able to access this and be really embarrassed and filled of regret about how he wasn't a serious person when he had a chance. The heck with that guy.
 
-
+<br><br>
 
 ## User Interface Updates
 ### April 20th 2020, 5:37:20 pm EDT
@@ -331,7 +331,7 @@ I continue learning how to use [Bootstrap](https://getbootstrap.com/) without tw
 
 I've been somewhat quitet about my research becasue I was just programming the news site. Now the Tag/Category system will allow me to post Philosophy, Songs (that I may sing, eek) my music, bicycle adventures, and all kinds of things.
 
-
+<br><br>
 
 ## Whoo Hoo! News Launched
 ### April 19th 2020, 8:09:23 pm EDT
@@ -351,7 +351,7 @@ Too many things change in code, research notes have to be much simpler. And they
 
 I'll probably create a separate repository [for just my posts](https://github.com/fantasyui-com/news-catpea-com/tree/master/db/content/posts) and do the same for my little book.
 
-
+<br><br>
 
 ## News on news.catpea.com has a functional category browser.
 ### April 19th 2020, 1:22:14 pm EDT
@@ -365,7 +365,7 @@ So, I guess, the news site will have a category browser with strict rule, one po
 
 And Then I'll add tags, where the user can browse all posts tagged poem for example.
 
-
+<br><br>
 
 ## System Upgrade
 ### April 18th 2020, 6:07:44 pm EDT
@@ -379,7 +379,7 @@ Here is the [result](https://github.com/fantasyui-com/news-catpea-com/blob/17041
 
 Now I can continue with making [news.catpea.com](http://news.catpea.com) look nicer, I am missing some icons, and i want to allow browsing by category (research/quarantine) so that with a click only poems will come up.
 
-
+<br><br>
 
 ## Working on news.catpea.com
 ### April 17th 2020, 3:45:54 pm EDT
@@ -397,7 +397,7 @@ At the time of writing there are nine menu items (Quarantine Log, Research Blog,
 
 This is really helping me learn about design, and it is keeping my programming skills sharp.
 
-
+<br><br>
 
 ## Styleguide Updates
 ### April 16th 2020, 9:02:46 pm EDT
@@ -407,7 +407,7 @@ I expanded the [Theme](http://catpea.com/theme) Styleguide to include many more 
 
 If you click the lightbulb and browse [Theme](http://catpea.com/theme) all the color information will be washed away, and things will look all military Zero Dark Mango Tango.
 
-
+<br><br>
 
 ## Theme rebuilt, syncing up with Bootswatch
 ### April 16th 2020, 3:25:33 pm EDT
@@ -433,7 +433,7 @@ It will be a great test of usefulness.
 
 Whews.
 
-
+<br><br>
 
 ## Designing Energon Cubes
 ### April 15th 2020, 5:29:22 pm EDT
@@ -515,7 +515,7 @@ Now I need to make some serious presets that will get me closer to a more seriou
 
 Serious Design
 
-
+<br><br>
 
 ## Is Working Out The Tool Was Needed Because Of How Many Tiny Adjustments Are Required To Make Faux 3 D Out Of Mere Shadows Res...
 ### April 15th 2020, 10:34:27 am EDT
@@ -555,7 +555,7 @@ It is a lot constraint, restriction, and direction. But pretty fun as well.
 
 So with this post I will launch a third blog (in addition to Poetry and Research) and begin musing about Theme Development. I would like this blog section to be bundled with the theme (or along side it) as a kind of a proof of development, and quality.
 
-
+<br><br>
 
 ## Initial Commit
 ### April 15th 2020, 9:01:26 am EDT
@@ -571,7 +571,7 @@ I want to keep compatibility with [Bootswatch](https://github.com/thomaspark/boo
 
 This theme needs to be a drop-in replacement for standard [Bootstrap](https://getbootstrap.com/) and [Bootswatch](https://github.com/thomaspark/bootswatch/) themes.
 
-
+<br><br>
 
 ## I Just Finished Another Upgrade For And It Can Make Ice Cream Now I Also Made A Couple Of Profiles Lemon And Blueberry To To...
 ### April 14th 2020, 8:20:18 pm EDT
@@ -607,7 +607,7 @@ Looks Interesting
 
 Looks Interesting
 
-
+<br><br>
 
 ## I Am Still Working On I Found Some Graphic Artifacts With Yesterdays Approach Now I Am Creating The 3 D Raised Effect With Dro...
 ### April 14th 2020, 3:16:55 pm EDT
@@ -643,7 +643,7 @@ Red, Green, Blue, are combined together to create smooth surface that created th
 
 Yellow is the subtle Drop Shadow that is cast on the page background.
 
-
+<br><br>
 
 ## Research Designer Png Designer Gui Preview I Have Managed To Create A Little Tool Named Mostly For Desktops The Tool Sets On...
 ### April 13th 2020, 9:45:49 pm EDT
@@ -675,7 +675,7 @@ I believe this is a design by [Creative Mints](https://dribbble.com/creativemint
 
 And right now, I don't have any particular design in mind. I am just focusing on creating a tool that gives a convincing 3D effect, in a language called CSS. CSS is not meant for this, but applying a couple of tricks here and there, can actually work, and efficiently, and it would be accepted by the [Bootstrap](https://getbootstrap.com/) developers as OK. I did play with this tool for a few minutes, and it needs another layer of shade, to make the bottom border more pronounced, other than that it is about done.
 
-
+<br><br>
 
 ## Research Real Jpg Real Design Creating Was In Deed A Good Idea The Newest Thing About It Is That It Gives Me The Ability To...
 ### April 13th 2020, 10:56:54 am EDT
@@ -703,7 +703,7 @@ I am going to make a new tool, here for catpea where I study certain approaches 
 
 I have previously experimented with this by having created [skins](https://github.com/fantasyui-com/skins), [neumorphism](https://fantasyui-com.github.io/neumorphism/), [fantasy-gui](https://fantasyui-com.github.io/fantasy-gui/), [synthwave](https://fantasyui-com.github.io/synthwave/) and [color-schemes](https://github.com/fantasyui-com/color-schemes). For this first one I'll keep things even simpler.
 
-
+<br><br>
 
 ## Research Mm Png Sunday Mascot I Continue Adapting My Strategy For Approaching Automated Processing I Created A Program That C...
 ### April 12th 2020, 2:03:06 pm EDT
@@ -767,7 +767,7 @@ SuperNavbar would then inherit properties of those Artistic Designs, background 
 
 Wow, it is 2PM already. I am thinking about a lot of my programming projects at once, this coloring adventure is just relaxations.
 
-
+<br><br>
 
 ## I Went For The Gold Ive Been Experimenting With Low Level Scss Language Processing For A Goodie Long While Now And I Just Fin...
 ### April 11th 2020, 7:55:56 pm EDT
@@ -789,7 +789,7 @@ I'll have to think about this some more. If it is at all possible to process Boo
 
 I called the program [serserge](https://github.com/fantasyui-com/serserge) in large part because I only had a Raspberry Salad yesterday (Shredded Lettuce with Raspberry Preserves) as part of my extremely sophisticated diet, and here is the main [beef](https://github.com/fantasyui-com/serserge/blob/master/plugins/postcss-reconnaissance/index.mjs) that removes color related information: [beef](https://github.com/fantasyui-com/serserge/blob/master/plugins/postcss-reconnaissance/index.mjs). I can't believe this took six+ hours, maybe my daydreams are just longer. Hmm.
 
-
+<br><br>
 
 ## I Had To Disable Automatic Color Changes I Am Using A System Here That Takes A Snapshot Of The Code And Uploads That Snapshot...
 ### April 11th 2020, 12:10:41 pm EDT
@@ -811,7 +811,7 @@ There is yet another way of looking at color, and that is seeing it in relation 
 
 Playing with color now.
 
-
+<br><br>
 
 ## Huge Problems With Mixing Colors It Is Not Really Possible To Use Yellow On White Now I Kind Of Have The Heads Up Yellow Is...
 ### April 10th 2020, 6:17:27 pm EDT
@@ -849,7 +849,7 @@ And if this fails, then the only two colors the user will get to keep will be Pr
 
 All these approaches are meant to eliminate color clashing, which is the number one problem in Bootstrap.
 
-
+<br><br>
 
 ## Research Dexter Png My Laboratory Is Cat Pea Oh Noes Added Site Wide Support For Night Day Mode I Thought It Was A Bit...
 ### April 10th 2020, 1:27:13 pm EDT
@@ -881,7 +881,7 @@ So when I force night-mode during the day, the computer will reset back after 12
 
 I remember the day, I got my self into all this ridiculousness. People kept saying "Computers are the future", and the little me was like "Hey, I am trying to get my future all sorted out, why don't I learn computers? After all, it is the future!"
 
-
+<br><br>
 
 ## Yay Night Mode Seems To Have Worked Out I Even Gave It Nice And Tidy Animation Had A Light Bulb Icon For Me So It All Went S...
 ### April 9th 2020, 6:07:45 pm EDT
@@ -893,7 +893,7 @@ Yay, Night Mode seems to have worked out, I even gave it nice and tidy animation
 
 Night Mode Toggle
 
-
+<br><br>
 
 ## I Might Have Come Up With A Way To Toggle Night Mode On Websites Even Dark Ones I Did This With Just Two Lines Of Code Basica...
 ### April 9th 2020, 5:22:15 pm EDT
@@ -907,7 +907,7 @@ So, on this website, I don't really need night mode. But, as experimental resear
 
 I'll work on that for a couple of hours, it shouldn't take long, I already have a demo on the [Theme](http://catpea.com/theme) page.
 
-
+<br><br>
 
 ## I Fixed Up The Page Where I Show Off Some More Advanced Backgrounds But Overall This Has Been A Study Of Color Not Just How...
 ### April 9th 2020, 3:29:25 pm EDT
@@ -921,7 +921,7 @@ Since I am using a programmable component layer over [Bootstrap](https://getboot
 
 This was more difficult than I expected. And when complete it will be quite a framework for web applications.
 
-
+<br><br>
 
 ## I Upgraded And Begun Using It Somewhat The Website Has New Colors That Almost Came Directly From Getting Colors To Like Each...
 ### April 9th 2020, 11:55:13 am EDT
@@ -937,7 +937,7 @@ I learned a lot about working with bootstrap these past few weeks, while I did w
 
 I have learned that Primary, Secondary and White, are the main colors, if I need to make something jump out that's all I got. Success, Info, Warning, Danger are for non-creative decorations. And there is also two more colors Dark and Light. And I use these for backgrounds only. A dark website will use bg-dark for all the widgets, and a white website will use bg-light. There isn't really a way to flip-flop between the two without human intervention. In a couple of months I could outline a plan that would allow switching between dark and white. Personally, I think all websites and applications should be dark. I'll make a website that can switch between the two, but that will take some experimenting. [Bootstrap](https://getbootstrap.com/) is the same way, they basically say if you want something dark say bg-dark+text-light and that hard-coded into the design. I would need to make a program that toggles between bg-dark+text-light and bg-light+text-dark on application level (a tier above the design).
 
-
+<br><br>
 
 ## I Created A New Tool I Named This Time It Deals With Color Theory Right Now It Is Focused On The Five Primary Colors That Most...
 ### April 8th 2020, 7:35:35 pm EDT
@@ -955,7 +955,7 @@ In context of this tool they are labeled: Primary, Secondary, Success, Info, War
 
 But it is not very complicated. Most often it is just a cylinder of hues with colors going around.
 
-
+<br><br>
 
 ## I Wanted To Quickly Demonstrate What I Mean When I Say The Ui Works On Both Mobile Devices And Desktop Computers The First Imag...
 ### April 8th 2020, 7:01:17 pm EDT
@@ -971,7 +971,7 @@ Application In Desktop Mode
 
 Application In Mobile Mode (I had to cut it up in multiple columns)
 
-
+<br><br>
 
 ## I Finished Laying Down The Groundwork For Components As Predicted There Is Wisdom In Following Bootstraps Conventions The...
 ### April 8th 2020, 12:28:09 pm EDT
@@ -993,7 +993,7 @@ I should add that this grid is where the user structures a part of a song, for e
 
 Yet Un-styled Melody Maker Component
 
-
+<br><br>
 
 ## Clarification As To Why My Development Is Taking So Long While I Am Developing Some Programs That Are Best On The Desktop...
 ### April 8th 2020, 9:52:16 am EDT
@@ -1001,7 +1001,7 @@ Yet Un-styled Melody Maker Component
 
 Clarification as to why my development is taking so long. While I am developing some programs that are \*best\* on the desktop. I am actually developing User Interfaces that work on Mobile Phones, and "grow" to fit tablet and desktop. Making user interfaces that work property on Mobile and Desktop is kind of hard, the more detailed they become the harder it is to ensure compatibility.
 
-
+<br><br>
 
 ## Yup It Was A Github Problem They Only Serve Regularly Named Files Everything Was Fine On My End On My Local Servers But The...
 ### April 7th 2020, 9:41:32 pm EDT
@@ -1009,7 +1009,7 @@ Clarification as to why my development is taking so long. While I am developing 
 
 Yup, it was a github problem, they only serve regularly named files. Everything was fine on my end, on my local servers. But the moment website was uploaded to their server, it would refuse to serve some files. So, on my computer the program ran fine, on github's it was missing files as the server would not serve them just give a File Not Found 404. Pretty awful, I couldn't fully investigate the problem until I uploaded to github where the error was occurring.
 
-
+<br><br>
 
 ## I Am Testing The Other Stuff I Added Now I Narrowed Down Problems Down To One Thing So If Something Is Still Broken Ill Fix It...
 ### April 7th 2020, 5:11:12 pm EDT
@@ -1017,7 +1017,7 @@ Yup, it was a github problem, they only serve regularly named files. Everything 
 
 I am testing the other stuff I added now. I narrowed down problems down to one thing so if something is still broken I'll fix it now. I wrote a [cute little program](https://github.com/fantasyui-com/catpea-com/blob/master/bugfix-commonjs-helpers.sh) to apply the bug fixes. It is in a language called [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) ([Bash Tutorial](https://www.youtube.com/watch?v=v-F3YLd6oMw)). It is my pet language. Not favorite, but like a bitey pet Lynx type of thing. All my music processing software that I used at the gym was written in Bash. It is an old language.
 
-
+<br><br>
 
 ## Another Website Crash Isnt Reporting Errors Properly Working On It Now I Think I Know What Is Going On But It Is Just A Th...
 ### April 7th 2020, 3:44:14 pm EDT
@@ -1025,7 +1025,7 @@ I am testing the other stuff I added now. I narrowed down problems down to one t
 
 Another website crash, [Svelte](https://svelte.dev/) isn't reporting errors properly. Working on it now. I think I know what is going on, but it is just a theory for now. Microsoft is is rolling out github server upgrade, and unusual file-names are causing errors. I got errors from files starting with dot and files starting with underscore. This will fix problems, but I don't know if it is the exact problem I have here, right now.
 
-
+<br><br>
 
 ## The Navbar Kerfuffle
 ### April 7th 2020, 2:43:22 pm EDT
@@ -1051,7 +1051,7 @@ In the morning I felt that [Navbar](https://getbootstrap.com/docs/4.4/components
 
 Bootstrap is currently at version 4.4, they are already making big changes for 5.0. I am not the first to notice that their JavaScript is a problem, they will catch up.
 
-
+<br><br>
 
 ## Dealing With Incompatible Systems
 ### April 7th 2020, 9:41:39 am EDT
@@ -1073,7 +1073,7 @@ This is a large project because of how important compatibility among devices is 
 
 Eventually [Bootstrap](https://getbootstrap.com/) people will alter their programming to catch up with technologies like [Svelte](https://svelte.dev/) and then I'll be able to go back to using the standard Navbar.
 
-
+<br><br>
 
 ## Impossibilities and Superiorities
 ### April 7th 2020, 9:12:33 am EDT
@@ -1091,7 +1091,7 @@ I have worked with numerous technologies developed specifically for making Appli
 
 This is because nothing has received as much attention as the web. So, even though this technology stack is greatly restricted, it is also very powerful.
 
-
+<br><br>
 
 ## Working With The Gui Testing What I Can Alter What I Cant I Still Have No Idea What Catpea Is Good For What Website Format...
 ### April 6th 2020, 6:18:33 pm EDT
@@ -1107,7 +1107,7 @@ UI Thus Far
 
 UI Thus Far
 
-
+<br><br>
 
 ## I Am Testing Separate Sections In The Main Menu The Current Scroll Bar Within A Scroll Bar Setup Was For Testing I Wanted To...
 ### April 6th 2020, 3:21:21 pm EDT
@@ -1115,7 +1115,7 @@ UI Thus Far
 
 I am testing separate [Quarantine](http://catpea.com/quarantine)/[Research](http://catpea.com/research) sections in the main menu. The current scroll-bar within a scroll-bar setup was for testing, I wanted to see if it worked or if I needed to so something special. Well, they are both blogs, very similar to the warrior book, they should just have the same UI. This also brings me closer to proper Web Design, where I take a moment to make some fancy graphics to decorate typographical creations.
 
-
+<br><br>
 
 ## I Continue My Gui Theme Development Research Todays Test Is About Creating A Custom Component For The Digital Workstation My...
 ### April 6th 2020, 11:16:22 am EDT
@@ -1123,7 +1123,7 @@ I am testing separate [Quarantine](http://catpea.com/quarantine)/[Research](http
 
 I continue my GUI Theme development research, today's test is about creating a custom component for the digital workstation. My research revealed that it is more efficient not to use the helper classes I created. By using helper classes such as bg-primary instead of the longer way I end up over-complicating things in the end. I am entering a stage of simplification as I can tell a lot of the things I invented work great. What I would like to see, is as little confusion as possible. If I keep the code simple today, then in a few weeks I can start thinking about selling "Digital Audio Workstation Theme" at [Bootstrap Themes](https://themes.getbootstrap.com/), more importantly I get to learn more about Bootstrap's coding conventions, and perhaps make my own Bootstrap even.
 
-
+<br><br>
 
 ## Expanded Color Subsystem And Finished Configuring The Build System It Should Work Ok When Installed As A Desktop Shortcut I H...
 ### April 5th 2020, 6:35:47 pm EDT
@@ -1131,7 +1131,7 @@ I continue my GUI Theme development research, today's test is about creating a c
 
 Expanded color subsystem, and finished configuring the build system. It should work OK when installed as a desktop shortcut. I have to figure out some way to make catpea useful.
 
-
+<br><br>
 
 ## It Took Me A Moment To Figure Out How To Structure Colors Shades For User Interface In The The Problem Was I Needed More Color...
 ### April 5th 2020, 12:56:55 pm EDT
@@ -1139,7 +1139,7 @@ Expanded color subsystem, and finished configuring the build system. It should w
 
 It took me a moment to figure out how to structure colors/shades for User Interface in the [CATPEA DAW](http://catpea.com/daw). The problem was I needed more colors, but I don't want to go against [Bootstrap](https://getbootstrap.com/)'s way of doing things. So, where they have a color scheme like this: primary-color, secondary-color, muted-color, warning-color. I added primary-color-dark, secondary-color-dark, muted-color-dark, warning-color-dark and primary-color-light, secondary-color-light, muted-color-light, warning-color-light. So when two of bootstrap colors start biting each other for example button and box (that the button is in) I can make the button lighter by saying button color: primary-color-light, so I tripled color count, in such a way that all the users of the [Theme](http://catpea.com/theme) just need to remember "Oh, yeah, all the colors have a dark and light variation now. Hmm." so [CATPEA DAW](http://catpea.com/daw) UI is back to semi-normal now, and I updated the [Theme](http://catpea.com/theme) page to show off this upgrade.
 
-
+<br><br>
 
 ## Whoopsie I Crashed The Website Generator With Long Winded Code Explanations With Samples All Fixed Now I Always Worry Github...
 ### April 4th 2020, 3:47:42 pm EDT
@@ -1147,7 +1147,7 @@ It took me a moment to figure out how to structure colors/shades for User Interf
 
 Whoopsie, I crashed the website generator with long winded code explanations with samples. All fixed now. I always worry github will shut me down, I don't think they like Code Mavericks like me. If something ever happens like that, I'll switch within a day or two, catpea.com domain name will stay the same.
 
-
+<br><br>
 
 ## Ewwwwwww I Switched From To Node Sass Got Old I Guess I Wasnt Really Paying Too Much Attention To Sass A Ui Programming L...
 ### April 4th 2020, 3:04:39 pm EDT
@@ -1191,7 +1191,7 @@ Automatic Coloring
 
 As a side-note, programming-wise this is not really impressive, it is like 5 lines of code, so pro-programmers would yawn at this, but it is a big deal for me, because I am getting really precise and delicate control over colors in my Dark Theme here, that it is only 5 lines of code, is great for me, I can just type in a bit of code and be done with worrying about color readability for some UI component or button/label combo. I like this. And I like being given the opportunity to ponder if I want something to grow brighter (like a label on a button) or darker, like in the case of a number-label on a table of data (like a row number in Excel).
 
-
+<br><br>
 
 ## Zoinks I Started Work On A Graphical Theme For Applications I Called It It Provides Extensions For And Components Based On...
 ### April 3rd 2020, 7:25:54 pm EDT
@@ -1199,7 +1199,7 @@ As a side-note, programming-wise this is not really impressive, it is like 5 lin
 
 Zoinks! I started work on a Graphical Theme for Applications, I called it [Theme](http://catpea.com/theme). It provides extensions for [Bootstrap](https://getbootstrap.com/) and components based on [CATPEA DAW](http://catpea.com/daw). I'll use it for my research here, and try to keep it tidy and inline with Bootstrap's Programming conventions so that I can think about getting into [Bootstrap Expo](https://expo.getbootstrap.com/) and later [Bootstrap Themes](https://themes.getbootstrap.com/). I don't really want to create some stressful situation about sales, tech-support, and bug fixes; but I do like following [Bootstrap](https://getbootstrap.com/) conventions (it helps me keep code un-confusing) and I like learning about all this. Here's early: [Theme](http://catpea.com/theme).
 
-
+<br><br>
 
 ## Yes I Am 99 9 Sure That The Sound Machine Will Work The User Interface Is A Lot Simpler Than I Could Almost Call It A Symboli...
 ### April 3rd 2020, 1:25:35 pm EDT
@@ -1221,7 +1221,7 @@ I will create a RANDOMIZE SYNTHESIZER SETTINGS button, this will make different 
 
 Song Structure and Sequencer
 
-
+<br><br>
 
 ## Already Bumped Into An Artifact That Deals With Integrity Problems Basically When A New Part Of A Song Is Selected The Stuff T...
 ### April 3rd 2020, 10:15:43 am EDT
@@ -1233,7 +1233,7 @@ Already bumped into an artifact that deals with integrity problems. Basically wh
 
 Selections Trigger Unselections
 
-
+<br><br>
 
 ## Yup So But Also Github Developers Didnt Code Octicons Right It Is Not Done In The Standard Way And It May Be That Under Ce...
 ### April 2nd 2020, 6:11:51 pm EDT
@@ -1241,7 +1241,7 @@ Selections Trigger Unselections
 
 Yup, so [github was having problems](https://www.githubstatus.com/) but also, github developers didn't code octicons right, it is not done in the standard way, and it may be that under certain conditions the database of octicons that I import into my code will get wiped, they have processing instructions in there that run every time their library is imported, technically it should run once as it is cached, but under Svelte something goes wrong and the library returns empty data. I standardized it, and it works now, I am going to redo their system, I'll probably let them know that I did it, but that will be the end of it. I like these icons because there is a cute [squirrel](https://octicons.github.com/icon/squirrel/).
 
-
+<br><br>
 
 ## Things In Square Brackets Are Supposed To Be Links But The System Is Crashing Before I Get A Chance To Replace The Square Brack...
 ### April 2nd 2020, 4:14:32 pm EDT
@@ -1249,7 +1249,7 @@ Yup, so [github was having problems](https://www.githubstatus.com/) but also, gi
 
 Things in square brackets are supposed to be links, but the system is crashing before I get a chance to replace the square bracket notation, it will take me a moment to figure out why [Sapper](https://sapper.svelte.dev/) is failing. I did finish writing the poem for today, so that's nice. I just found out that on top of everything else [github is having problems](https://www.githubstatus.com/): "Update - We are investigating reports of service unavailability."
 
-
+<br><br>
 
 ## Yah It Is An Internal Bug I Have Little To Do With It Could Be Or That It Is Worth Solving Because It Is A Learning Experie...
 ### April 2nd 2020, 4:04:32 pm EDT
@@ -1257,7 +1257,7 @@ Things in square brackets are supposed to be links, but the system is crashing b
 
 Yah, it is an internal bug I have little to do with, it could be [Rollup](https://rollupjs.org/guide/en/) or that [Octicons require a json file](https://github.com/primer/octicons/commit/875bc333ce4dc6a460a116dfd315a56dbb23120f#diff-c93a11fe3afdd3ccfbe1f152a8cf7b20L1), it is worth solving because it is a learning experience, I get a moment of time to look through the system I am working with, mostly [Svelte](https://svelte.dev/), [Sapper](https://sapper.svelte.dev/) and [Rollup](https://rollupjs.org/guide/en/). The code for [Octicons](https://octicons.github.com/) which is made by github is highly questionable, I should make a copy and just re-write it. There is some [SVG](https://www.w3.org/Graphics/SVG/WG/wiki/SVG_FAQ) work coming up, since Octicons are in SVG, I may just do that then.
 
-
+<br><br>
 
 ## I Found Some Trouble In The Website Generation Configuration It Was Preventing Parts Of The Program From Operating I Am Going...
 ### April 2nd 2020, 12:05:22 pm EDT
@@ -1265,7 +1265,7 @@ Yah, it is an internal bug I have little to do with, it could be [Rollup](https:
 
 I found some trouble in the website generation configuration, it was preventing parts of the program from operating. I am going to be testing it for a bit more.
 
-
+<br><br>
 
 ## Is Now A Desktop Application Mobile Devices Are Too Slow For Making Music This Is A New Program With New Stuff In It I Wont...
 ### April 2nd 2020, 11:01:03 am EDT
@@ -1285,7 +1285,7 @@ If this was a project for a company, for a client and client requested a feature
 
 Isn't this interesting? · Alas, let us first see if I can have all I need to make music withut needing functions.
 
-
+<br><br>
 
 ## Added A Very Early Preview Of Sound Machine I Aim To Create A Workout Song Generator Builder But I Dont Want To Just Create A...
 ### April 1st 2020, 5:29:48 pm EDT
@@ -1297,7 +1297,7 @@ Added a very early preview of Sound Machine. I aim to create a Workout Song Gene
 
 Digital Audio Workstation
 
-
+<br><br>
 
 ## Added The Salamander Piano Sampler Gadget...
 ### March 31st 2020, 9:14:25 pm EDT
@@ -1305,7 +1305,7 @@ Digital Audio Workstation
 
 Added the Salamander Piano Sampler Gadget.
 
-
+<br><br>
 
 ## I Had To Rotate Labels On The Instruments Everything Goes Cdefgab Instead Of Abcdefg Sigh I Cant Believe This Is Part Of The...
 ### March 31st 2020, 8:32:07 pm EDT
@@ -1313,7 +1313,7 @@ Added the Salamander Piano Sampler Gadget.
 
 I had to rotate labels on the instruments everything goes CDEFGAB instead of ABCDEFG. Sigh, I can't believe this is part of the [Scientific Pitch Notation](https://en.wikipedia.org/wiki/Scientific_pitch_notation) specification, music people are strange sometimes.
 
-
+<br><br>
 
 ## Lots Of Little Bug Fixes.
 ### March 31st 2020, 8:30:07 pm EDT
@@ -1321,7 +1321,7 @@ I had to rotate labels on the instruments everything goes CDEFGAB instead of ABC
 
 Lots Of Little Bug Fixes. I made some instrument upgrades and a few code bugs snuck in.
 
-
+<br><br>
 
 ## Added Preset To The Beat Sequencer To Test Support For Multiple Instruments I Also Added Salamander Piano Which Is Based On...
 ### March 31st 2020, 7:43:12 pm EDT
@@ -1333,7 +1333,7 @@ Added [Inner City, Good Life](https://github.com/fantasyui-com/catpea-com/blob/m
 
 Piano Fun
 
-
+<br><br>
 
 ## Cleaned Up The It Is Actually Simpler Than It Looks Https Github Com Fantasyui Com Catpea Com Blob Master Src Components Be...
 ### March 31st 2020, 3:24:44 pm EDT
@@ -1341,7 +1341,7 @@ Piano Fun
 
 Cleaned up the [Beat Sequencer Source Code](https://github.com/fantasyui-com/catpea-com/blob/master/src/components/BeatSequencer.svelte) it is actually simpler than it looks.
 
-
+<br><br>
 
 ## I Have Added Slide Open Slide Closed Animation To The Drawer In Shebang Slash Beat Sequencer When Opening One Of The Drawers I...
 ### March 31st 2020, 11:36:24 am EDT
@@ -1349,7 +1349,7 @@ Cleaned up the [Beat Sequencer Source Code](https://github.com/fantasyui-com/cat
 
 I have added slide-open/slide-closed animation to the drawer in Shebang Slash Beat Sequencer, when opening one of the drawers, instead of contents appearing instantly they slide in vertically. I am not a fan of animation of this kind in GUI world, but everybody seems to be doing it, and if I am to develop a Bootstrap Theme for possible sales, I need to make sure all my designs cooperate nicely with [Svelte's Transition Directives](https://svelte.dev/examples#transition).
 
-
+<br><br>
 
 ## Ive Been Looking At The Submissions In Curated By One Of The Original Developers And I Feel Like The Warrior Book Needs Bett...
 ### March 30th 2020, 6:15:38 pm EDT
@@ -1357,7 +1357,7 @@ I have added slide-open/slide-closed animation to the drawer in Shebang Slash Be
 
 I've been looking at the submissions in [Bootstrap Expo](https://expo.getbootstrap.com/) curated by one of the original [Bootstrap](https://getbootstrap.com/) developers. And I feel like the Warrior Book needs better design, and I think maybe the Workout Song Generation may benefit from being its own application. In next few weeks, perhaps, I would like to practice art general design and typography for a bit to create something as beautiful as that [Beautiful Web Type](http://hellohappy.org/beautiful-web-type) demo.
 
-
+<br><br>
 
 ## Added Stop Play Buttons To The Beat Sequencer It Just Seems Right Overall Adding Extras Is A Bad Idea But In Larger Programs...
 ### March 30th 2020, 6:07:28 pm EDT
@@ -1365,7 +1365,7 @@ I've been looking at the submissions in [Bootstrap Expo](https://expo.getbootstr
 
 Added Stop/Play buttons to the Beat Sequencer, it just seems right. Overall, adding extras is a bad idea, but in larger programs, if there are too many extras one can add a Advanced Mode. It would work here too, but a couple of extra buttons is OK.
 
-
+<br><br>
 
 ## The Future Well It Takes About 50 Lines Of Code To Make Music To Make Mp 3 Files With Mostly Randomly Generated Fresh Sounding...
 ### March 30th 2020, 4:16:36 pm EDT
@@ -1373,7 +1373,7 @@ Added Stop/Play buttons to the Beat Sequencer, it just seems right. Overall, add
 
 THE FUTURE: Well, it takes about 50 lines of code to make music, to make MP3 files with mostly randomly generated fresh sounding music. There is no server requirement, everything happens in the browser crunching math in the user's CPU. Let us make future now, not tomorrow. I will now aim to create a Workout Song generator Widget/Gadget, that upon straining the CPU a bit will pop out files that can be played on the phone during workout. From Soundboard, to Beat Sequencer, to Song Maker. You might have noticed that the Beat Sequencer started sounding too complicated for a bit, "BPM", "Parts", "Beats", "Octave", "Note", "Scientific Notation", this is one lesson I want to take away from the Sequencer, the song generator will have to be massively abstract, it will have a setting for Softness rather than Samples and Presets, it will say Advanced Workout, Intermediate Workout, instead of BPM and Beats. I'll abstract away all the music-y stuff. Yah.
 
-
+<br><br>
 
 ## Huge Problem Here Is Cpu Speed My Older Phone Tablet Cant Keep Pace Too Much Cpu Processing Is Required To Make Music Live N...
 ### March 30th 2020, 3:53:37 pm EDT
@@ -1381,7 +1381,7 @@ THE FUTURE: Well, it takes about 50 lines of code to make music, to make MP3 fil
 
 Huge problem here is CPU speed. My older phone/tablet can't keep pace, too much CPU processing is required to make music live. Now, there is a way around this, kind of. It should be possible to make a song file and then play it. As far as modern technologies go, CHEAP MOBILE DEVICES are not ready to make music. There is a million ways around this, but each and every one of those comes with drawbacks. This technology works on fast desktops, and that is what I will recommend that people use.
 
-
+<br><br>
 
 ## Shebang Slash Soundboard Is Complete Keeping Things Simple Is How Good Software Gets Done Good Now I Need To Add More Presets...
 ### March 30th 2020, 3:47:37 pm EDT
@@ -1389,7 +1389,7 @@ Huge problem here is CPU speed. My older phone/tablet can't keep pace, too much 
 
 Shebang Slash Soundboard is complete. Keeping things simple, is how good software gets done good. Now I need to add more presets, that should be fun. The preset data format looks like binary code, here is the Closed Hat for Billie Jean Meow Mix: {label:'Closed Hat', device:'lofi', octave:6, note:'C', data:expandNotation('1010 1010 1010 1010 1010 1010 1010 1010')} I came up with this, there is a bunch of repetitive stuff in data files, so I cooked up this 0/1 thing and a function that expands it into the data that the program ends up using.
 
-
+<br><br>
 
 ## Renamed The Lofi Soundboard To Shebang Slash Soundboard...
 ### March 30th 2020, 3:05:41 pm EDT
@@ -1397,7 +1397,7 @@ Shebang Slash Soundboard is complete. Keeping things simple, is how good softwar
 
 Renamed the LOFI Soundboard to Shebang Slash Soundboard
 
-
+<br><br>
 
 ## Shebang Slash Soundboard Has A Very Simple But Powerful Start Loading Progress Bar Done Setup This Type Of Programming Has...
 ### March 30th 2020, 3:03:41 pm EDT
@@ -1405,7 +1405,7 @@ Renamed the LOFI Soundboard to Shebang Slash Soundboard
 
 Shebang Slash Soundboard has a very simple but powerful Start, Loading, Progress-Bar, Done, setup. This type of programming has only been available for 2 years. It is a combination of Svelte, ES6, SCSS, Rollup, Sapper and Bootstrap.
 
-
+<br><br>
 
 ## Github The Company Hosting The Site And The Site It Self Is Becoming Sluggish So I Am Opening A New Experiment I Am Going To...
 ### March 30th 2020, 11:54:36 am EDT
@@ -1413,7 +1413,7 @@ Shebang Slash Soundboard has a very simple but powerful Start, Loading, Progress
 
 Github, the company hosting the site, and the site it self is becoming sluggish, so I am opening a new experiment. I am going to add control over loading resources. For example the Shebang Slash soundboard will come with a Start or Load button, the .mp3 samples that it loads will only start loading into the browser when Start/Load is pressed. · Eventually I would like to make a website for creating workout music, so stuff like resource control will come in really handy dandy. If CATPEA goes down it is because GitHub broke some promise, I'll be back up within a couple of days.
 
-
+<br><br>
 
 ## Drawer Component
 ### March 30th 2020, 10:55:21 am EDT
@@ -1421,7 +1421,7 @@ Github, the company hosting the site, and the site it self is becoming sluggish,
 
 I named the panel I've been poking at [drawer](https://github.com/fantasyui-com/catpea-com/tree/master/src/style/drawer). You can take a look at the graphical configuration in CSS language [here](https://github.com/fantasyui-com/catpea-com/blob/master/src/style/drawer/drawer.scss). I am learning to make components for [Bootstrap](https://getbootstrap.com/) this has been a hobby of mine for many years now. It feels nice to be making progress here. I still need to create a configuration section that stores all the sizing/color information, with descriptions and such. The [drawer page](https://github.com/fantasyui-com/catpea-com/tree/master/src/style/drawer) shows examples of how to use the Drawer, that language is called HTML. [Bootstrap](https://getbootstrap.com/) developers would frown on my work thus far because the drawer component can almost be made in another way, they actually have similar things. But I am thinking about creating components for a [Digital Audio Workstation (DAW)](https://www.google.com/search?q=Digital+Audio+Workstation&tbm=isch) like [Ableton](https://www.ableton.com/en/live/), right now the drawer is not impressive, but it will evolve beyond what Bootstrap can do. Already I am thinking that I should not use colors, but rather transparent shadows, so whatever color is in the background the drawer will inherit it automatically. [Bootstrap](https://getbootstrap.com/) creates flat/raised things, and my additions may end up being graphically sunken. Plus, [Bootstrap](https://getbootstrap.com/) creates structure, and I use it for layout and containers. They don't really create content that is specific for some purpose (like my DAW), they limit themselves to general purpose things. They do sell themes, and if I ever completed this project, they may accept mine into their store. I have much more to learn, and I still have to get used to their way of doing things.
 
-
+<br><br>
 
 ## Added A Collapsible Panel To The Shebang Slash Beat Sequencer It Looks Good Works Ok I Will Need To Do A Lot Of Configuration...
 ### March 29th 2020, 8:37:57 pm EDT
@@ -1429,7 +1429,7 @@ I named the panel I've been poking at [drawer](https://github.com/fantasyui-com/
 
 Added a collapsible panel to the Shebang Slash Beat Sequencer. It looks good, works OK. I will need to do a lot of configuration work before I can use it throughout. But this is the right path, this is where I will ![Squirrel](image/research-0021-squirrel.svg) away all the complexity, it will be a simple UI, but also contain all kinds of features a click away.
 
-
+<br><br>
 
 ## Yah I Need New Gui Technologies The Browser Stuff Is Old And Brittle I Am Looking To And Just At A Glance I Can See I Need...
 ### March 29th 2020, 4:10:34 pm EDT
@@ -1441,7 +1441,7 @@ Yah, I need new GUI technologies, the browser stuff is old and brittle. I am loo
 
 GUI Ideas
 
-
+<br><br>
 
 ## Well Ive Noticed The Ui Is Not Loading On My Cheap Mobile Tablet And The Dropdowns I Use For Everything Look Ugly Plus They...
 ### March 29th 2020, 9:14:44 am EDT
@@ -1449,7 +1449,7 @@ GUI Ideas
 
 Well, I've noticed the UI is not loading on my cheap mobile tablet. And the dropdowns I use for everything look ugly, plus they are hard to consistently style across different browsers and devices. UI needs a new strategy. Now, I will leave the Shebang Slash Sequencer in, I won't make radical changes to it. But, time has come to think about a new GUI technology.
 
-
+<br><br>
 
 ## I Continue My Work On The Little Shebang Slash Beat Sequencer
 ### March 28th 2020, 6:31:17 pm EDT
@@ -1457,7 +1457,7 @@ Well, I've noticed the UI is not loading on my cheap mobile tablet. And the drop
 
 I continue my work on the little Shebang Slash Beat Sequencer, I am searching for an easy UI configuration, that is also fully featured (can edit a huge song), and has a huge area for configuring things beyond Octave and Note. The area that opens up below when user clicks a line number will be used for sound synthesis configuration that could be as many as 10 dropdowns. I don't like horizontal scrolling, this is what this test is about. But there is something wrong with Vertical Scrolling, like here in the [Mod Trackers](https://www.youtube.com/watch?v=gdSslkrN1kk), it just feels too awkward to compose a song downwards. On the other hand I don't want to recreate the [Ableton](https://www.ableton.com/en/live/) UI, editing music this way is too slow. I'll probably keep creating these little UI widgets, but begin connecting them together under a common beat. This way the end result is a dashboard of easy to use musical instruments, and probably some fat squirrels.
 
-
+<br><br>
 
 ## Updated Warrior Book And Videos
 ### March 21st 2020, 4:14:25 pm EDT
@@ -1465,7 +1465,7 @@ I continue my work on the little Shebang Slash Beat Sequencer, I am searching fo
 
 Updated Warrior Book and Videos on catpea.com
 
-
+<br><br>
 
 ## Updated Neumorphism
 ### February 4th 2020, 7:33:31 pm EST
@@ -1473,7 +1473,7 @@ Updated Warrior Book and Videos on catpea.com
 
 Updated the [Neumorphism](https://fantasyui-com.github.io/neumorphism/) tool with support for mobile/tablet and light source direction.
 
-
+<br><br>
 
 ## Created A Tool For Updating The Book
 ### February 2nd 2020, 8:48:18 pm EST
@@ -1481,7 +1481,7 @@ Updated the [Neumorphism](https://fantasyui-com.github.io/neumorphism/) tool wit
 
 Created a tool for updating the book and Cat Pea GUI [Neumorphism](https://fantasyui-com.github.io/neumorphism/)
 
-
+<br><br>
 
 ## Hee Haw What A Ride I Split The User Interface Components Used In From And Created A Creatively Named Stand Alone Project...
 ### January 30th 2020, 11:07:32 pm EST
@@ -1489,7 +1489,7 @@ Created a tool for updating the book and Cat Pea GUI [Neumorphism](https://fanta
 
 Hee Haw, what a ride, I split the user Interface components used in [The Warrior Book](http://catpea.com/warrior) from [Cat Pea Code](https://github.com/fantasyui-com/catpea-com) and created a creatively named stand-alone project: [book-gui](https://fantasyui-com.github.io/book-gui/?path=/story/widgets--illustration)
 
-
+<br><br>
 
 ## Added To The Main Menu It Is A Complicated Effort As The Book Was Converted To A Pure Data File And Now Needs Components To R...
 ### January 27th 2020, 10:34:30 pm EST
@@ -1497,7 +1497,7 @@ Hee Haw, what a ride, I split the user Interface components used in [The Warrior
 
 Added [The Warrior Book](http://catpea.com/warrior) to the main menu. It is a complicated effort as the book was converted to a pure data file, and now needs components to render the data. It made the book very portable, but there are a couple of broken internal links, and perhaps a bug or two.
 
-
+<br><br>
 
 ## The Squirrel Expert System
 ### January 24th 2020, 8:01:25 pm EST
@@ -1505,7 +1505,7 @@ Added [The Warrior Book](http://catpea.com/warrior) to the main menu. It is a co
 
 The Squirrel Expert System can hide topics that the user already discussed. Squirrel's mind can be configured via Preferences pane. Added warning to anomalous IQ settings. Added secondary directives.
 
-
+<br><br>
 
 ## Added Squirrel AI!
 ### January 24th 2020, 9:39:17 am EST
@@ -1513,7 +1513,7 @@ The Squirrel Expert System can hide topics that the user already discussed. Squi
 
 Added Squirrel AI.
 
-
+<br><br>
 
 ## Added Squirrel Icons Squirrel Svg...
 ### January 23rd 2020, 9:11:52 pm EST
@@ -1523,7 +1523,7 @@ Added Squirrel
 
 ![Squirrel](image/research-0010-squirrel.png)
 
-
+<br><br>
 
 ## Improved News Readability...
 ### January 23rd 2020, 9:06:48 pm EST
@@ -1531,7 +1531,7 @@ Added Squirrel
 
 Improved news readability.
 
-
+<br><br>
 
 ## Added Prev Next Navigation To Random Videos
 ### January 23rd 2020, 8:34:33 pm EST
@@ -1539,7 +1539,7 @@ Improved news readability.
 
 Added prev/next navigation to random videos.
 
-
+<br><br>
 
 ## Svelte Research
 ### January 23rd 2020, 8:16:31 pm EST
@@ -1547,7 +1547,7 @@ Added prev/next navigation to random videos.
 
 Continued exploring potential for component re-usability. [Svelte's](https://svelte.dev/) [Sapper](https://sapper.svelte.dev/) is following WebComponents where templating is concerned (I can reference same slot multiple times), CSS module isolation works great, metaprogramming HTML with {#if}{:else}{/if} is fine. It does beat [Marko](https://markojs.com/), [React](https://reactjs.org/) and [Vue](https://vuejs.org/).
 
-
+<br><br>
 
 ## Added Autopause To Random Video Player
 ### January 23rd 2020, 7:51:10 pm EST
@@ -1555,7 +1555,7 @@ Continued exploring potential for component re-usability. [Svelte's](https://sve
 
 Added Autopause to Random Video player, improved its randomness.
 
-
+<br><br>
 
 ## Made The Little News Squirrels Shake
 ### January 22nd 2020, 8:46:22 pm EST
@@ -1563,7 +1563,7 @@ Added Autopause to Random Video player, improved its randomness.
 
 Made the little news squirrels shake when a user pokes at them.
 
-
+<br><br>
 
 ## Testing Component Composition By Generalizing Bodybuilding Advice Preferences Pane Into A Employing The Container In Https...
 ### January 22nd 2020, 8:07:38 pm EST
@@ -1571,7 +1571,7 @@ Made the little news squirrels shake when a user pokes at them.
 
 Testing component composition by generalizing Bodybuilding Advice Preferences Pane into a [generic reusable container](https://github.com/fantasyui-com/catpea-com/blob/0b3dd8426cc0cdcf9ade924293489c3f63996fd1/src/containers/PreferenceCard.svelte#L46). Employing the container in [News component](https://github.com/fantasyui-com/catpea-com/blob/0b3dd8426cc0cdcf9ade924293489c3f63996fd1/src/components/News.svelte#L45).
 
-
+<br><br>
 
 ## Improved The Randomness Of Bodybuilding Advice
 ### January 21st 2020, 10:38:19 pm EST
@@ -1579,7 +1579,7 @@ Testing component composition by generalizing Bodybuilding Advice Preferences Pa
 
 Improved the randomness of Bodybuilding Advice. Items begin repeating after about 84 selections. I added a tiny little sub-progress bar to show when the system will reset, re-shuffle, and begin parading the newly re-shuffled list.
 
-
+<br><br>
 
 ## Added Preferences Pane To Bodybuilding Advice Component
 ### January 21st 2020, 10:23:19 pm EST
@@ -1589,7 +1589,7 @@ Added Preferences Pane to Bodybuilding Advice on [Cat Pea](http://catpea.com).
 
 Bodybuilding Advice is meant to serve as a starting point for more complex components.
 
-
+<br><br>
 
 ## I Love The Squirrel Octicon
 ### January 21st 2020, 10:22:19 pm EST
@@ -1599,6 +1599,6 @@ Testing [octicons](https://octicons.github.com/). I love the squirrel icon.
 
 ![Squirrel](image/research-0001-squirrel.png)
 
-
+<br><br>
 
 
