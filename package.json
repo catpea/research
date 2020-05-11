@@ -1,6 +1,6 @@
 {
   "name": "research",
-  "version": "1.0.0",
+  "version": "1.2020.93",
   "description": "Markdown source for software development research.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,10 @@
     "marked": "^1.0.0",
     "moment": "^2.25.3",
     "moment-timezone": "^0.5.28",
-    "pretty": "^2.0.0"
+    "pretty": "^2.0.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "oneof": "^2.0.0",
+    "username": "^5.1.0"
   }
 }
