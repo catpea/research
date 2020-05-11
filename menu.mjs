@@ -25,16 +25,16 @@ const questions = [
         name: 'Publish To Github',
         value: './bin/publish/index.sh'
       },
-      {
-        key: 'r',
-        name: 'Resize Images',
-        value: './bin/resize/index.sh'
-      },
-      {
-        key: 'j',
-        name: 'Convert PNG to JPG',
-        value: './bin/tojpg/index.sh'
-      },
+      // {
+      //   key: 'r',
+      //   name: 'Resize Images',
+      //   value: './bin/resize/index.sh'
+      // },
+      // {
+      //   key: 'j',
+      //   name: 'Convert PNG to JPG',
+      //   value: './bin/tojpg/index.sh'
+      // },
       {
         key: 'x',
         name: 'Exit Menu',
