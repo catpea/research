@@ -1,6 +1,6 @@
 {
   "name": "research",
-  "version": "1.2020.95",
+  "version": "1.2020.96",
   "description": "Markdown source for software development research.",
   "main": "index.js",
   "scripts": {
