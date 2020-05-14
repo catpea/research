@@ -1,5 +1,69 @@
 # Research
 
+## Radio Meow 2.0
+### May 14th 2020, 3:24:11 pm EDT
+<meta itemprop="dateCreated" datetime="2020-05-14T19:24:11.393Z">
+
+I've been working on it for a few days, it works but the internal architecture could be better. The code is clear though.
+
+It should work on slow connections now, it has less buttons (less confusion), and a seekable progress bar so one can skip around a poem/song.
+
+It initially preloads the first poem, and once it starts playing it caches the one that follows, so eventually it grabs all the poems.
+
+I am going to have to look into memory use and try to unload some poems but I need some experimental data for that.
+
+I'll keep playing with it for now, see what else maybe broken.
+
+I'll listen to it on a cheap phone on my bicycle adventures to see what problems may arise.
+
+The UI came out a lot simpler than I expected, there is nothing exciting there, this is both good and odd.
+
+<br><br>
+
+## Radio Meow Updates and Svelte Woes
+### May 12th 2020, 5:44:48 pm EDT
+<meta itemprop="dateCreated" datetime="2020-05-12T21:44:48.316Z">
+
+I just got the poem/audio file download tracking done.
+
+I simulated a slow 3G connection and downloading those little files took a while.
+
+I am now getting full download feedback information (bytes downloaded thus far, and total bytes to be downloaded, delivered at reasonable time intervals) as I use a generic file loader, not one with a concept of skipping around a long video file and downloading little snippets here and there.
+
+***
+
+I am running into issues with svelte, limitations.
+
+Svelte is still great for making apps, but application brains need more.
+
+It may just be that all we can do with Svelte, React, Vue, and Angular is User Interfaces, no more, never more.
+
+In that case, the code inside Svelte is not JavaScript but Memory Programming Code, or Application State Programming Code.
+
+Downloading Files, Performing Operations would be best handled by external libraries, and ones that behave like those that come with the web browser (very standard and boring).
+
+And then, once data is ready, over in Svelte side one simply says:
+
+```JavaScript
+mitt.on('complex-processing-got-done', hereisthedata => {
+  playlist[5].data = hereisthedata
+})
+```
+
+Svelte will understand "playlist[5].data" and update the User Interface automatically, but the process of creating "hereisthedata" needs to be far and away from Svelte as it gets confused.
+
+This sounds very resonable, but now I have to add,
+
+```JavaScript
+mitt.on('complex-processing-got-done-download-progress', {total, thusfar} => {
+  playlist[5].meta.total = total;
+  playlist[5].meta.bytes = thusfar;
+})
+```
+And the promise of Svelte was that I never had to worry about any of this, it was supposed to happen automatically.
+
+<br><br>
+
 ## Meow Radio Woes
 ### May 11th 2020, 11:20:13 am EDT
 <meta itemprop="dateCreated" datetime="2020-05-11T15:20:13.344Z">
@@ -10,7 +74,7 @@ I published it because it kind of works, and to get an idea of what I am dealing
 
 The **first issue** I came across was two poems playing at the same time, this is a class of problems called race conditions. And it arises here due to how long it takes to load a file.
 
-The **second issue** is the pause between poems, that's comes from loading it on a slow connection.
+The **second issue** is the pause between poems, that comes from loading it on a slow connection.
 
 There is a another issue, playing audio in browsers can be tricky.
 There are solutions and different approaches, but they are not mutually compatible and trying to make it so will ruin them all.

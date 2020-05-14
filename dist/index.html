@@ -14,6 +14,57 @@
 
       <article>
         <section class="log-entry" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="dateCreated" datetime="2020-05-14T19:24:11.393Z">
+          <hgroup>
+            <h2>Radio Meow 2.0</h2>
+            <h3>May 14th 2020, 3:24:11 pm EDT</h3>
+          </hgroup>
+          <p>I&#39;ve been working on it for a few days, it works but the internal architecture could be better. The code is clear though.</p>
+          <p>It should work on slow connections now, it has less buttons (less confusion), and a seekable progress bar so one can skip around a poem/song.</p>
+          <p>It initially preloads the first poem, and once it starts playing it caches the one that follows, so eventually it grabs all the poems.</p>
+          <p>I am going to have to look into memory use and try to unload some poems but I need some experimental data for that.</p>
+          <p>I&#39;ll keep playing with it for now, see what else maybe broken.</p>
+          <p>I&#39;ll listen to it on a cheap phone on my bicycle adventures to see what problems may arise.</p>
+          <p>The UI came out a lot simpler than I expected, there is nothing exciting there, this is both good and odd.</p>
+
+        </section>
+      </article>
+
+
+      <article>
+        <section class="log-entry" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="dateCreated" datetime="2020-05-12T21:44:48.316Z">
+          <hgroup>
+            <h2>Radio Meow Updates and Svelte Woes</h2>
+            <h3>May 12th 2020, 5:44:48 pm EDT</h3>
+          </hgroup>
+          <p>I just got the poem/audio file download tracking done.</p>
+          <p>I simulated a slow 3G connection and downloading those little files took a while.</p>
+          <p>I am now getting full download feedback information (bytes downloaded thus far, and total bytes to be downloaded, delivered at reasonable time intervals) as I use a generic file loader, not one with a concept of skipping around a long video file and downloading little snippets here and there.</p>
+          <hr>
+          <p>I am running into issues with svelte, limitations.</p>
+          <p>Svelte is still great for making apps, but application brains need more.</p>
+          <p>It may just be that all we can do with Svelte, React, Vue, and Angular is User Interfaces, no more, never more.</p>
+          <p>In that case, the code inside Svelte is not JavaScript but Memory Programming Code, or Application State Programming Code.</p>
+          <p>Downloading Files, Performing Operations would be best handled by external libraries, and ones that behave like those that come with the web browser (very standard and boring).</p>
+          <p>And then, once data is ready, over in Svelte side one simply says:</p>
+          <pre><code class="language-JavaScript">mitt.on(&#39;complex-processing-got-done&#39;, hereisthedata =&gt; {
+  playlist[5].data = hereisthedata
+})</code></pre>
+          <p>Svelte will understand &quot;playlist[5].data&quot; and update the User Interface automatically, but the process of creating &quot;hereisthedata&quot; needs to be far and away from Svelte as it gets confused.</p>
+          <p>This sounds very resonable, but now I have to add,</p>
+          <pre><code class="language-JavaScript">mitt.on(&#39;complex-processing-got-done-download-progress&#39;, {total, thusfar} =&gt; {
+  playlist[5].meta.total = total;
+  playlist[5].meta.bytes = thusfar;
+})</code></pre>
+          <p>And the promise of Svelte was that I never had to worry about any of this, it was supposed to happen automatically.</p>
+
+        </section>
+      </article>
+
+
+      <article>
+        <section class="log-entry" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="dateCreated" datetime="2020-05-11T15:20:13.344Z">
           <hgroup>
             <h2>Meow Radio Woes</h2>
@@ -22,7 +73,7 @@
           <p>I knew that Meow Radio will create problems.</p>
           <p>I published it because it kind of works, and to get an idea of what I am dealing with here.</p>
           <p>The <strong>first issue</strong> I came across was two poems playing at the same time, this is a class of problems called race conditions. And it arises here due to how long it takes to load a file.</p>
-          <p>The <strong>second issue</strong> is the pause between poems, that&#39;s comes from loading it on a slow connection.</p>
+          <p>The <strong>second issue</strong> is the pause between poems, that comes from loading it on a slow connection.</p>
           <p>There is a another issue, playing audio in browsers can be tricky.
             There are solutions and different approaches, but they are not mutually compatible and trying to make it so will ruin them all.</p>
           <p>I have to find a framework and stick with it. The browser offers a thing called <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio">Audio() class</a>,
