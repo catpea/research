@@ -84,7 +84,7 @@ Programming, Bodybuilding and Jogging, go really well together,<br>
 you don't sit at the desk all day.
 
 Jogging with this program will be wonderful,<br>
-it does not feel like a challenge, it feels like a fun fame.
+it does not feel like a challenge, it feels like a fun game.
 
 
 [1]: https://westland-valhalla.github.io/warrior/the-jogger.html
