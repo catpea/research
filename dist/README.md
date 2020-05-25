@@ -89,7 +89,7 @@ it does not feel like a challenge, it feels like a fun fame.
 [4]: https://github.com/fantasyui-com/ultra/blob/74675678b7f0f62881a1e3d57e85d08651748148/ultra.spec
 [5]: https://en.wikipedia.org/wiki/RPM_Package_Manager
 [6]: https://en.wikipedia.org/wiki/Fedora_(operating_system)
-[7]: https://news.catpea.com/read/poetry-0079
+[7]: https://news.catpea.com/read/poetry-0080
 
 <br><br>
 
