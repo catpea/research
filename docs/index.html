@@ -14,6 +14,40 @@
 
       <article>
         <section class="log-entry" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="dateCreated" datetime="2020-08-28T20:16:11.739Z">
+          <hgroup>
+            <h2>Handlebars Is Dangerous, Use Mustache</h2>
+            <h3>August 28th 2020, 4:16:11 pm EDT</h3>
+          </hgroup>
+          <p>I have tested handlebars as a lightweight templating engine and found that it hides data,
+            this is called contexts, when inside a loop, all the data outside of it is gone and must be accessed via &quot;../outside&quot; pattern.</p>
+          <p>While I was able to deal with this, I discovered a nested each bug: <a href="https://github.com/handlebars-lang/handlebars.js/issues/1686">https://github.com/handlebars-lang/handlebars.js/issues/1686</a> that appears to treated with low priority. Nested loops are missing data! that is not to be tolerated, at all.</p>
+          <p>My search was a search for the lowest possible common denominator in the world of templates, it has begun prior to es6, and I hope to avoid template strings as nested mappings of nested templates are ugly (see React.)</p>
+          <p>I have now re-discovered mustache, and it seems OK, the context (variable scope) is not broken/obscured. However there is no each/loop statement but rather that automatic {{#someArray}} Hello {{.}}! {{/someArray}}, which is not perfect but tolerable.</p>
+          <p>In conclusion, Handlebars still has bugs in 2020 and hates variable scopes for some reason. Mustache has a bit more terse syntax, it seems OK.</p>
+          <p>I am switching from Handlebars to Mustache:</p>
+          <pre><code class="language-mustache">// Handlebars (Note each)
+{{#each someArray}}
+  Hello {{.}}!
+{{/each}}
+</code></pre>
+          <pre><code class="language-mustache">// Mustache
+{{#someArray}}
+  Hello {{.}}!
+{{/someArray}}
+</code></pre>
+          <p>Note to self avoid Handlebars because contents of #each loop have no access to global variable scope without anomalous provisions.</p>
+          <ul>
+            <li><a href="https://handlebarsjs.com/">https://handlebarsjs.com/</a> (sadness)</li>
+            <li><a href="http://mustache.github.io/">http://mustache.github.io/</a> (okayesness)</li>
+          </ul>
+
+        </section>
+      </article>
+
+
+      <article>
+        <section class="log-entry" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="dateCreated" datetime="2020-05-25T02:10:14.460Z">
           <hgroup>
             <h2>Programming, Bodybuilding and Jogging</h2>
